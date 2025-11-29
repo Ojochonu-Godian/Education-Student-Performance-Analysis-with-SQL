@@ -26,7 +26,7 @@ The Entity relationship diagram showing the relationships and structure of the d
 
 <img width="1480" height="1648" alt="Education_Student Performance" src="https://github.com/user-attachments/assets/e5f0ece3-2bfa-4f59-99d0-bbc29a45281c" />
 
-### Key Analytical Questions
+## Key Analytical Questions
 The [Students_Performance.sql](https://github.com/Ojochonu-Godian/Education-Student-Performance-Analysis-with-SQL/blob/main/Students_Performance.sql) script is structured to provide direct answers to the following 10 analytical questions:
 
 #### Performance Trends & Timing
@@ -47,4 +47,16 @@ The [Students_Performance.sql](https://github.com/Ojochonu-Godian/Education-Stud
 8. Which students have achieved the top three highest overall weighted averages this year?
 9. Which teachers have the highest average student weighted scores, and how do they compare to the overall average?
 10. For a selected student, how have their scores and weighted averages changed throughout the year?
+
+#### Technologies and Features
+
+Technology: T‑SQL on a relational database (MSSQL Server).
+
+##### Key features:
+
+- Common Table Expressions (CTEs) for modular analysis.
+- Analytical queries using AVG, COUNT, window functions, and conditional aggregations.
+- Views (e.g., Passed_Percentage) for reusable metrics.
+- Ranking and performance classification for teachers via RANK() and CASE expressions.
+
 
